@@ -1,0 +1,542 @@
+* {
+    margin: 0;
+    font-family: sans-serif;
+    padding: 0;
+}
+
+.header {
+    flex: 1;
+    justify-content: space-between;
+    background-color: rgb(17 24 39);
+    padding: 20px 100px;
+    box-shadow: 3px 2px 4px gray;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    width: 90%;
+
+}
+
+.logo>img {
+    color: white;
+}
+
+.links {
+    gap: 19px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.links>a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+.links>a:hover {
+    color: teal;
+}
+
+.btn>a {
+    background-color: #14b8a6;
+    color: white;
+    padding: 10px;
+    font-size: 20px;
+    border: 0;
+    border-radius: 10px;
+    text-decoration: none;
+
+}
+
+.btn>a:hover {
+    background-color: #0f766e;
+}
+
+.footer {
+    height: 60px;
+    width: 100%;
+    background-color: #1f2937;
+}
+
+.footer>h5 {
+    text-align: center;
+    padding: 24px;
+    color: gray;
+}
+
+/* ......header css end */
+
+.banner {
+    display: flex;
+    height: 430px;
+    justify-content: space-between;
+    background-color: #0f766e;
+    padding: 50px;
+}
+
+.text {
+    flex: 1;
+
+}
+
+.text>h1 {
+    font-size: 80px;
+    font-weight: bolder;
+    margin-top: 70px;
+    color: white;
+}
+
+.text>p {
+    font-size: 22px;
+    color: white;
+}
+
+.broser {
+    background-color: black;
+    padding: 15px;
+    color: white;
+    text-decoration: none;
+    margin-top: 20px;
+    border-radius: 10px;
+
+}
+
+/* ..........banner css end............ */
+
+.continer {
+    display: flex;
+    background-color: #475569;
+    height: auto;
+}
+
+.column {
+    flex-direction: column;
+}
+
+h2 {
+    color: white;
+    padding-left: 30px;
+    padding-top: 20px;
+
+}
+
+.p {
+    padding: 20px;
+}
+
+.card {
+    background-color: white;
+    height: 350px;
+    flex: 1;
+    border: 1px solid #eee;
+    box-shadow: 2px 2px 1px solid #ddd;
+    border-radius: 10px;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    width: 97%;
+    padding: 23px;
+    margin-bottom: 20px;
+
+}
+
+.card-image {
+    flex: 1;
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+}
+
+.card-footer {
+    border-top: 2px solid #ddd;
+    align-items: center;
+    display: flex;
+}
+
+.card-footer>p {
+    font-size: 15px;
+    color: gray;
+    margin-left: 15px;
+    margin-top: 10px;
+}
+
+.badge {
+    align-self: start;
+    background-color: rgb(172, 223, 223);
+    color: teal;
+    border-radius: 10px;
+    font-size: 14px;
+    padding: 2px 5px;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.price {
+    color: gray;
+    font-size: 16px;
+}
+
+.card-body>h2 {
+    font-size: 17px;
+    color: black;
+    margin-right: 20px;
+}
+
+h4 {
+    margin-left: 20px;
+    margin-top: 15px;
+    margin-top: 10px;
+}
+
+.card-image>img:hover {
+    transform: scale(1.05);
+}
+
+.card-image>img {
+    transition: transform 0.3s ease-in-out;
+}
+
+.card-image {
+    overflow: hidden;
+    border-radius: 10px 10px 0 0;
+}
+
+.card-footer>img {
+    width: 7%;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+/* about work start */
+
+.top-banner {
+    flex: 1;
+    background-color: rgb(19 78 74);
+    padding: 30px 80px;
+    padding-top: 130px;
+}
+
+.top-banner>h1 {
+    color: white;
+    font-weight: 700;
+}
+
+.readcrumb {
+    display: flex;
+    gap: 8px;
+    align-items: baseline;
+}
+
+.readcrumb>a {
+    color: white;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.arrow {
+    width: 6px;
+    height: 6px;
+    color: white;
+}
+
+.homeicon {
+    width: 12px;
+    height: 12px;
+    color: white;
+}
+
+.content {
+    height: 700px;
+    background-color: #1f2937;
+    padding: 20px 80px;
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+}
+
+.content>p,
+ul>li {
+    text-align: justify;
+    font-size: 20px;
+    color: white;
+    margin-left: 18%;
+}
+
+.content>h1 {
+    color: white;
+    font-weight: 900;
+    margin-left: 18%;
+}
+
+.content>h3 {
+    color: white;
+    font-weight: 700px;
+    margin-left: 18%;
+}
+
+/* .....contact CSS */
+
+.contact {
+    height: 550px;
+    background-color: white;
+    padding: 20px 80px;
+    display: flex;
+    gap: 28px;
+    flex-direction: column;
+}
+
+.contact>p {
+    text-align: justify;
+    font-size: 20px;
+    margin-left: 18%;
+    margin-top: 15px;
+    color: gray;
+}
+
+.contact>h3 {
+    font-weight: 700px;
+    margin-left: 18%;
+}
+
+/* achievement css here */
+
+.top-container {
+    background-color: #334155;
+    flex: 1;
+    height: auto;
+    padding: 20px 30px;
+}
+
+.box-row {
+    flex: 1;
+    display: flex;
+    gap: 7px;
+}
+
+.box1 {
+    flex: 1;
+    height: 150px;
+    border: 1px solid black;
+    border-radius: 7px;
+}
+
+.image1 {
+    display: flex;
+    gap: 20px;
+    flex: 1;
+}
+
+.box1>.image1>img {
+    margin-top: 5px;
+    height: 145px;
+    width: 20%;
+}
+
+.content-box {
+    margin-top: 20px;
+}
+
+.content-box>h3 {
+    color: white;
+    font-family: sans-serif;
+}
+
+.content-box>h5 {
+    color: rgb(198 204 214);
+    margin-top: 10px;
+
+}
+
+.content-box>p {
+    color: white;
+    margin-top: 10px;
+}
+
+/* courses css here */
+
+.course-box {
+    background-color: #607797;
+    height: 100vh;
+    flex: 1;
+    display: flex;
+    padding: 60px;
+    gap: 20px;
+}
+
+.course-box>.col1 {
+    flex: 0.22;
+    height: 700px;
+    background-color: #2d4464;
+    border-radius: 10px;
+}
+
+.course-box>.col2 {
+    flex: 1;
+}
+
+.col2>.card-row {
+    display: flex;
+    height: 400px;
+    flex: 1;
+    gap: 6px;
+
+
+}
+
+.card-row>.card1 {
+    background-color: wheat;
+    flex: 1;
+    height: 320px;
+    border-radius: 7px;
+
+}
+
+.course-box>.col1 {
+    flex-direction: column;
+    display: flex;
+    gap: 27px;
+    padding: 10px 15px;
+
+}
+
+.course-box>.col1>a {
+    color: white;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+
+.course-box>.col1>.cate {
+    background-color: #1f2937;
+    padding: 10px 14px;
+    width: 95%;
+    border-radius: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* login css here  */
+
+.loginbox {
+    height: 700px;
+    width: 100%;
+    background-color: #2d4464;
+}
+
+.login {
+    background-color: rgb(241 245 249);
+    height: 330px;
+    width: 500px;
+    position: absolute;
+    top: 90px;
+    left: 35%;
+    margin-top: 7%;
+    border-radius: 10px;
+}
+
+.login>h2 {
+    color: black;
+}
+
+.hr {
+    margin: 10px;
+    margin-left: 32px;
+
+}
+.fdiv {
+    margin-top: 10px;
+    margin-left: 32px;
+}
+
+.fdiv>label {
+    font-family: sans-serif;
+    color: rgb(52, 45, 45);
+    font-weight: 700;
+}
+
+.fdiv>input {
+    height: 40px;
+    width: 96%;
+    border-radius: 5px;
+    border: ridge;
+    color: wheat;
+    margin-top: 5px;
+}
+
+.fdiv>input:hover {
+    border: solid rgba(67, 60, 61, 0.627);
+}
+
+.rdiv {
+    margin-top: 16px;
+    margin-left: 32px;
+    display: flex;
+    justify-content: center;
+    gap: 43%;
+    color: rgb(52, 45, 45);
+    
+}
+.rdiv>h5{
+    font-weight: 600px;
+}
+.bdiv {
+    margin-top: 20px;
+    margin-left: 32px;
+    display: flex;
+    justify-content: center;
+    gap: 45%;
+    
+   
+}
+ .bdiv>.new{
+    background-color:#115e59 ;
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: white;
+ }
+
+ .bdiv>.log{
+    background-color:rgb(31 41 55);
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: white;
+ }
+ .log:hover{
+    background-color: rgb(13, 20, 26);
+ }
+.new:hover{
+    background-color: #113e3b ;
+}
+
+.lfooter {
+    height: 130px;
+    width: 100%;
+    background-color: #1f2937;
+}
+
+.lfooter>h5 {
+    text-align: center;
+    padding: 20px;
+    color: gray;
+}
+
+
+
